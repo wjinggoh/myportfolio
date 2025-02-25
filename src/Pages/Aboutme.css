@@ -3,3 +3,11 @@
     margin-left: 25px;
     font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
 }
+
+.description {
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 30px;
+    text-decoration: none;
+    word-spacing: 8px;
+}
