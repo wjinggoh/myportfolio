@@ -1,8 +1,12 @@
-import React, {useState, useEffect} from "react";
+import './Footer.css';
 
-function Footer(){
-    <>
-    <h2 style={{color:"grey"}}>Footer</h2></>
+function Footer() {
+    return (
+        <footer className="footer">
+            <h2>Footer</h2>
+            <p>© 2025 Goh Wen Jing | Portfolio</p>
+        </footer>
+    );
 }
 
 export default Footer;

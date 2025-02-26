@@ -1,0 +1,9 @@
+.footer {
+    /* ✅ Ensure background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(194, 194, 194);
+}

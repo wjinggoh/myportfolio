@@ -14,8 +14,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutMe" element={<Aboutme />} />
-          <Route path="/contactMe" element={<Contactme/>}/>
+          <Route path="/contactMe" element={<Contactme />} />
         </Routes>   
+        <Footer /> {/* Footer now appears on all pages */}
       </Router>
     </div>
   );
