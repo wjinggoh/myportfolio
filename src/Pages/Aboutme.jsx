@@ -16,7 +16,7 @@ function Aboutme() {
             </div>
 
             {/* Summary Section */}
-            <div ref={summaryRef} className="summary">
+            <div style={{paddingTop:"15px"}} ref={summaryRef} className="summary">
                 <Card 
                     title="Summary" 
                     content="A passionate Software Engineering graduate with expertise in web and mobile development, specializing in building interactive applications. Proficient in React, JavaScript, HTML, CSS, and Kotlin. Strong foundation in SDLC, software testing, and database management. Experienced in SQL, Firebase, and COBOL for legacy system development." 
