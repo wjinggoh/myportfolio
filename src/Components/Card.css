@@ -1,17 +1,42 @@
-        .card {
-            border-radius: 30px;
-            background-color: white;
-            box-shadow: 5px 5px 5px hsl(0, 0% 0%, 0.1);
-            padding: 20px;
-            margin: 20px;
-            text-align: left;
-            width: 250px;
-            max-width: 500px;
-            display: inline-block;
-            overflow: hidden;
-            white-space: nowrap;
-            /*this is to prevent the text from wrapping */
-            transition: width 0.3s ease-in-out;
-        }
-        
-        .card :hover {}
+.card-container {
+    position: relative;
+    /* Prevents movement of other elements */
+    display: inline-block;
+    width: 250px;
+}
+
+.card {
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    width: 250px;
+    max-width: 500px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    /* Prevents text from wrapping */
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.card:hover {
+    width: 500px;
+    transform: scaleX(1.05);
+    /* Slight scaling for better animation */
+}
+
+.card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Shows '...' for clipped text */
+    white-space: nowrap;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover p {
+    white-space: normal;
+    /* Allows text to wrap */
+}

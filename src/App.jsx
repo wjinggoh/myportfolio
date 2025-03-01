@@ -16,7 +16,7 @@ function App() {
           <Route path="/aboutMe" element={<Aboutme />} />
           <Route path="/contactMe" element={<Contactme />} />
         </Routes>   
-        <Footer /> {/* Footer now appears on all pages */}
+        <Footer style={{marginBottom:"100px"}} /> {/* Footer now appears on all pages */}
       </Router>
     </div>
   );

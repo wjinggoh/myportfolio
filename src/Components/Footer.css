@@ -1,8 +1,16 @@
 .footer {
-    /* ✅ Ensure background color */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
+    position: fixed;
+    /* Keeps it fixed at the bottom */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centers the footer */
+    width: 90%;
+    /* Adjust width to fit properly */
+    max-width: 1250px;
+    /* Prevents it from stretching too wide */
+    padding: 15px 20px;
+    border-radius: 15px;
     text-align: left;
     background-color: white;
     box-shadow: 5px 5px 15px rgb(194, 194, 194);

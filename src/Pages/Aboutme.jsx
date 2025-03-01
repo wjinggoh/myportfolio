@@ -16,7 +16,7 @@ function Aboutme() {
             </div>
 
             {/* Summary Section */}
-            <div style={{paddingTop:"15px"}} ref={summaryRef} className="summary">
+            <div style={{  marginTop: "150px" }} ref={summaryRef} className="summary">
                 <Card 
                     title="Summary" 
                     content="A passionate Software Engineering graduate with expertise in web and mobile development, specializing in building interactive applications. Proficient in React, JavaScript, HTML, CSS, and Kotlin. Strong foundation in SDLC, software testing, and database management. Experienced in SQL, Firebase, and COBOL for legacy system development." 
@@ -25,16 +25,16 @@ function Aboutme() {
 
             <br/>
 
-            {/* Education Section */}
-            <div ref={educationRef} className="education">
-                <Card 
-                    title="Education" 
-                    content="Tunku Abdul Rahman University of Management and Technology - Bachelor in Software Engineering"
-                />
-            </div>
+            <div ref={educationRef} className="education" style={{  marginTop: "150px" }}>
+    <Card 
+        title="Education" 
+        content="Tunku Abdul Rahman University of Management and Technology - Bachelor in Software Engineering"
+    />
+</div>
+
 
             {/* More About Me Section */}
-            <div ref={moreRef} className="more">
+            <div ref={moreRef} className="more" style={{  marginTop: "150px", marginBottom:"500px"}}>
                 <Card 
                     title="More About Me" 
                     content="I enjoy exploring new technologies and constantly improving my skills. Passionate about software development, problem-solving, and teamwork in an agile environment."
