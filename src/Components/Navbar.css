@@ -5,11 +5,12 @@
     /* Align items vertically */
     justify-content: space-between;
     /* Moves logo to the left and links to the right */
-    padding: 30px 20px;
+    padding-bottom: 10px;
     /* Adds some spacing */
     /* Adjust the background color as needed */
     margin: 0;
     width: 100vw;
+    background-color: rgba(255, 255, 255, 0.4);
     box-sizing: border-box;
     /*this prevents the padding will affect the*/
 }

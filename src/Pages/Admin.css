@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adminTitle {
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+.inputs input.title {
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    resize: vertical;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 150px;
+}
